@@ -22,11 +22,11 @@ jobs:
 
       - name: Build site
         run: |
-          deno task build --location=https://lume-blog.deno.dev
+          deno task build
 
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: lume-blog
+          project: blog-jiawen
           import-map: "./import_map.json"
           entrypoint: server.ts
