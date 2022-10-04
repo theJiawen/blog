@@ -6,7 +6,7 @@ const config = {
   backend: {
     api_root: "https://api.github.com",
     branch: "master",
-    name: "git-gateway",
+    name: "github",
     repo: "theJiawen/blog",
   },
   media_folder: "img",
