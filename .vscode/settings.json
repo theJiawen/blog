@@ -6,6 +6,7 @@
     "https://deno.land": true
   },
   "cSpell.words": [
-    "lume"
+    "lume",
+    "middlewares"
   ]
 }

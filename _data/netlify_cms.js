@@ -4,8 +4,10 @@ f.defaultRequired = false;
 
 const config = {
   backend: {
-    name: "git-gateway",
+    api_root: "https://api.github.com",
     branch: "master",
+    name: "github",
+    repo: "theJiawen/blog",
   },
   media_folder: "img",
   collections: [],
