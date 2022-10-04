@@ -4,10 +4,12 @@ f.defaultRequired = false;
 
 const config = {
   backend: {
-    api_root: "https://api.github.com",
+    // api_root: "https://api.github.com",
     branch: "master",
     name: "github",
     repo: "theJiawen/blog",
+    // repo: "theJiawen/cms",
+    base_url: "https://cms-three-pi.vercel.app/"
   },
   media_folder: "img",
   collections: [],
